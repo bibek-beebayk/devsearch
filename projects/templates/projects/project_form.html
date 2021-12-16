@@ -6,7 +6,7 @@
     <h1>Project Form</h1>
 </header>
 
-<form method="POST">
+<form method="POST" action="" enctype="multipart/form-data">
     {% csrf_token %}
     {{form.as_p}}
     <input type="submit">
